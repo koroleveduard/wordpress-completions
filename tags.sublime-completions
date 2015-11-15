@@ -1,6 +1,12 @@
 {
     "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
     "completions": [
-        {"trigger":"is_category()\twordpress API","contents":"is_category(${1:slug|id})"},
+        {"trigger":"is_category() - - wordpress tags checks if Category are being displayed.","contents":"is_category(${1:slug|id})"},
+        {"trigger":"is_single()- wordpress tags checks if Post are being displayed.","contents":"is_single(${1:slug|id})"},
+        {"trigger":"is_page() - wordpress tags checks if Pages are being displayed.","contents":"is_page(${1:slug|id})"},
+        {"trigger":"is_front_page() - wordpress tags","contents":"is_front_page()"},
+        {"trigger":"is_home() - wordpress tags","contents":"is_home()"},
+        {"trigger":"is_singular() - wordpress tags contain tags is_page,is_single,s_attachment","contents":"is_singular()"},
+        {"trigger":"is_page_template() - wordpress tags allows you to determine if you are in any page template.","contents":"is_page_template('page.php')"},
     ]
 }

@@ -7,5 +7,6 @@
         {"trigger":"get_post_meta(post_id,key,single)\twordpress API","contents":"get_post_meta(${1:get_the_ID()},${2:field},${3:true})"},
         {"trigger":"get_option(option_name)\twordpress API","contents":"get_option(${3:'option_name'})"},
         {"trigger":"wp_reset_postdata()\twordpress API","contents":"wp_reset_postdata()"},
+        {"trigger":"get_the_title()- wordpress API. Return the title of a post for a given post ID.","contents":"get_the_title(id_post)"},
     ]
 }
