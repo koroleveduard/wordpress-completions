@@ -2,6 +2,7 @@
     "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
     "completions": [
         {"trigger":"is_category() - - wordpress tags checks if Category are being displayed.","contents":"is_category(${1:slug|id})"},
+        {"trigger":"is_object_in_term() - - checks if post included a taxonomy","contents":"is_object_in_term(${1:post_id},${2:taxonomy_name},${3:taxonomy_id})"},
         {"trigger":"is_single()- wordpress tags checks if Post are being displayed.","contents":"is_single(${1:slug|id})"},
         {"trigger":"is_page() - wordpress tags checks if Pages are being displayed.","contents":"is_page(${1:slug|id})"},
         {"trigger":"is_front_page() - wordpress tags","contents":"is_front_page()"},
