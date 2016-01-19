@@ -9,5 +9,6 @@
         {"trigger":"get_term_by\twordpress API","contents":"get_term_by( ${1:'slug'}, ${2:get_query_var( 'term' )}, ${3:get_query_var( 'taxonomy' )} )"},
         {"trigger":"wp_reset_postdata()\twordpress API","contents":"wp_reset_postdata()"},
         {"trigger":"get_the_title()- wordpress API. Return the title of a post for a given post ID.","contents":"get_the_title(id_post)"},
+        {"trigger":"do_shortcode()- wordpress API. Handle shortcode.","contents":"do_shortcode(str shortcode)"},
     ]
 }
